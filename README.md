@@ -26,7 +26,7 @@ std::cout<<"Random Chars from ABC:\n";
 
 repeat(20) // <- You can repeat things doing like this, its a for loop that starts in 0 and repeats it for 20 times
 {
-    auto variable4 = randx::randomConstCharVector(randx::ABC_CHAR);
+    auto variable4 = randx::randomConstCharVector(randx::ABC_CHAR); // Picks a random letter of the 'strVector1' variable
 
     std::cout<<variable4<<"\n";
 }
