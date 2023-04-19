@@ -1,11 +1,11 @@
-# randx
+# Randx library
 Set random ints, floats, an charecters in C++! Its the easiest way!
 
 ## How to use it:
 
 You need to add it to vendor / include directory and:
 
-```
+```cpp
 #include "dir/randx.hpp"
 
 // Random integers:
