@@ -9,6 +9,7 @@
 #include "randbool.hpp"
 #include "uniformDist.hpp"
 #include "randvector.hpp"
+#include "randstr.hpp"
 
 #define repeat(x)\
     for (int i = 0 ; i < x ; i++)

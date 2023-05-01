@@ -37,5 +37,25 @@ int main()
         std::cout<<variable4<<"\n";
     }
 
+    std::string inputVar = "";
+
+    std::cout<<"Type a word: ";
+    std::cin>>inputVar;
+    
+    std::cout<<"Random string of variable that contains: '"<<inputVar<<"' is:\n";
+
+    std::cout<<randx::randomString(inputVar)<<"\n";
+
+    ////
+
+    std::string inputVar2 = "";
+
+    std::cout<<"Type a word (For char*): ";
+    std::cin>>inputVar2;
+    
+    std::cout<<"Random string of variable that contains: '"<<inputVar2<<"' is:\n";
+
+    std::cout<<randx::randomChar(inputVar2)<<"\n";
+
     return 0;
 }

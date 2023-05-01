@@ -1,8 +1,8 @@
 INCS = 
-OBJS = main.o randnum.o randbool.o randvector.o
+OBJS = main.o randnum.o randbool.o randvector.o randstr.o
 EXE  = main
 
-CPPVER = 20
+CPPVER = 17
 SRCDIR = src
 INCDIR = include
 OBJDIR = obj
