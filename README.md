@@ -31,4 +31,24 @@ repeat(20) // <- You can repeat things doing like this, its a for loop that star
     std::cout<<variable4<<"\n";
 }
 
+ std::string inputVar = "";
+
+std::cout<<"Type a word: ";
+std::cin>>inputVar;
+
+std::cout<<"Random string of variable that contains: '"<<inputVar<<"' is:\n";
+
+std::cout<<randx::randomString(inputVar)<<"\n"; // Get random str
+
+////
+
+std::string inputVar2 = "";
+
+std::cout<<"Type a word (For char*): ";
+std::cin>>inputVar2;
+
+std::cout<<"Random string of variable that contains: '"<<inputVar2<<"' is:\n";
+
+std::cout<<randx::randomChar(inputVar2)<<"\n"; // Get random char (Variable must be str, it automaticly sets to a .c_str())
+
 ```
