@@ -3,6 +3,10 @@ Set random ints, floats, vectors and charecters in C++! It's the easiest way!
 
 ## How to use it:
 
+---
+
+This project is now part from Eduli (https://github.com/EduliSoftware)
+
 You need to add it to vendor / include directory and:
 
 ```cpp
