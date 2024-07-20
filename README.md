@@ -1,6 +1,9 @@
 # Randx library
 Set random ints, floats, vectors and charecters in C++! It's the easiest way!
 
+# Version
+## 1.1.0
+
 ## How to use it:
 
 ---
