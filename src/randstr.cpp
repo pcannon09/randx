@@ -5,11 +5,11 @@ namespace randx
 {
     std::string randomString(std::string str)
     {
-        return std::string(1, str[randx::randomInt(0, str.size() - 1)]);
+        return std::string(1, str[randx::randomInt(0, (int)(str.size() - 1))]);
     }
 
     std::string randomChar(std::string str)
     {
-        return std::string(1, str[randx::randomInt(0, str.size() - 1)]).c_str();
+        return std::string(1, str[randx::randomInt(0, (int)(str.size() - 1))]).c_str();
     }
 }
