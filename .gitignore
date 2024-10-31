@@ -1,0 +1,9 @@
+# Compiled files
+
+*.d
+*.o
+
+obj/
+
+main
+
