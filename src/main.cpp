@@ -19,15 +19,6 @@ int main()
 
     std::vector<std::string> strVector1 = {"H", "E", "L", "L", "O", ",", "W", "O", "R", "D", "!"};
 
-    std::cout<<"Random Chars from ABC:\n";
-
-    repeat(20)
-    {
-        auto variable4 = randx::randomConstCharVector(randx::ABC_CHAR);
-    
-        std::cout<<variable4<<"\n";
-    }
-
     std::cout<<"Random Strings from an array that contains: HELLO, WORLD!:\n";
 
     repeat(10)
@@ -45,17 +36,6 @@ int main()
     std::cout<<"Random string of variable that contains: '"<<inputVar<<"' is:\n";
 
     std::cout<<randx::randomString(inputVar)<<"\n";
-
-    ////
-
-    std::string inputVar2 = "";
-
-    std::cout<<"Type a word (For char*): ";
-    std::cin>>inputVar2;
-    
-    std::cout<<"Random string of variable that contains: '"<<inputVar2<<"' is:\n";
-
-    std::cout<<randx::randomChar(inputVar2)<<"\n";
 
     return 0;
 }
